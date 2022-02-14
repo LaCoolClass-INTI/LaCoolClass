@@ -41,4 +41,4 @@ _(Nos scripts de notre formation en BI/BIG Data)_
 
 MIT
 
-**Free Software, Hell Yeah!**
+**Free Software**
