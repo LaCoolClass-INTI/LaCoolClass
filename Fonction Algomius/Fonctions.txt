@@ -1,11 +1,11 @@
-Mécanismes de fonction :
+Algomius_Fonction_testfonction.sh
 	5:00
-	Fonction1.sh
+	Permet de tester les fonctions, en transformant le "a" qui a une valeur de 5 en valeur de 3.
 
-Fonction de paramètres : 
+Algomius_Fonction_Bonjour : 
 	11:10
-	Fonction2.sh
+	Fonction qui donne son nom, puis dit bonjour en fonction du paramètre donné. Plusieur réponse possible.
 
-Code retour d'un script (exit) : 
+Algmomiu_Fonction_retour : 
 	19:50
-	Fonction3.sh et retour.sh
+	Fonction qui vient prendre un autre script, ici retour, et donne le résultat. 
