@@ -1,10 +1,10 @@
-# Scripts-formation
+# La Cool Class - INTI 
+
+_(Nos scripts de notre formation en BI/BIG Data)_
 
 bonjour et bienvenue...
 
-[![N|Solid](https://drive.google.com/file/d/1m_NmctrHJr8OUZ4Enr_RoUCQ0Jt-1JKz/view?usp=sharing)](https://sites.google.com/view/lacoolclass/accueil)
 
-[![N|Solid](https://drive.google.com/file/d/1m_NmctrHJr8OUZ4Enr_RoUCQ0Jt-1JKz/view?usp=sharing)](https://sites.google.com/view/lacoolclass/accueil)
 
 voici les scripts étudiés lors de notre formation, 
 
