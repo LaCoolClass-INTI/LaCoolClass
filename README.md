@@ -36,7 +36,7 @@ _(Voici nos scripts de notre formation en BI/BIG Data)_
 
 | Vidéo Algomius| NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE |
 | ------ | ------ | ------ | ------ |
-| Algomius Introduction Linux | Algomius_Intro_Hello | 19:29 | Petit message pour idre bonjour ! |
+| Algomius Introduction Linux | Algomius_Intro_Hello | 19:29 | Petit message pour dire bonjour ! |
 | Algomius Variables Linux | 2 | 3 | 4 |
 |  | 2 | 3 | 4 |
 | Algomius Conditions Linux | 2 | 3 | 4 |
