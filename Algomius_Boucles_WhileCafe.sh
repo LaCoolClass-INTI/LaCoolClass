@@ -4,7 +4,7 @@ clear
 
 read -p "Est-ce que vous voulez du café ?" rep
 
-while [ $rep != "oui" ] && [ $rep != "non" ]
+while [ $rep != "oui" ] && [$rep != "non"]
 do
 	read -p "Est-ce que vous voulez du café ?" rep
 done
