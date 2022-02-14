@@ -23,14 +23,20 @@ _(Voici nos scripts de notre formation en BI/BIG Data)_
 # Ateliers
 
 - Linux 
-(TD1/Copie_Guillaume_Yoann_TD1) --> Linux.sh
+
+TD1/Copie_Guillaume_Yoann_TD1 --> Linux.sh
 
 - Codes persos 
-(pas encore push)
+
+Prog Adrien - afficher la ligne d'un fichier.sh
+
+prog Doryan Adrien - opération mathématique simple.sh
+
+Prog Doryan - afficher un fichier ligne par ligne.sh
 
 - TD2 (atelier 6) Shell
 
-- atelier6.sh
+atelier6.sh
 
 # Vidéos 
 
