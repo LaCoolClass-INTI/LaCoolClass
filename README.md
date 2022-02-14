@@ -14,9 +14,10 @@ _(Nos scripts de notre formation en BI/BIG Data)_
 # logiciels utilisés
 
 | Logiciels | liens de telechargement |
-| 7zip  | https://www.7-zip.org/download.html |
-| Cmder | https://cmder.net/ |
-| Git | https://git-scm.com/ | 
+| ------ | ------ |
+| 7zip  | [https://www.7-zip.org/download.html] |
+| Cmder | [https://cmder.net/] |
+| Git | [https://git-scm.com/] | 
 
 
 # Ateliers
