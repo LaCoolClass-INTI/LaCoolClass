@@ -1,0 +1,203 @@
+#exercice1
+
+#programme: 
+
+#!/bin/sh 
+if [ $# -ne 1 ]; then 
+ echo "Fournir un nom en parametre" 
+ exit 1 
+fi 
+if [ -d "$1" ]; then 
+ exit 0 
+else 
+ "$0" `dirname "$1"` 
+ mkdir "$1" 
+fi 
+#1)Que fait le programme shell suivant, dont le nom est mystere ? 
+#2)Proposez des exemples d'appels du programme mystere.
+
+#solution :
+
+#1) Ce programme crée le répertoire fourni en argument, et au besoin tous les sur-répertoires intermédiaires nécessaires. Note : voir l'option '-p' de mkdir. 
+#2) mystere /home/dupont/test/projet 
+
+
+
+#exercice2
+
+#Écrire un programme shell qui affiche les arguments du programme, 
+#dans l'ordre d'apparition (1er argument en premier). 
+#Si le programme n'a aucun argument, afficher « sans argument ». 
+
+#solution
+
+#!/bin/sh 
+if [ $# -eq 0 ]; then 
+ echo "sans argument" 
+ exit 0 
+fi 
+while [ $# -gt 0 ]; do 
+ echo $1 
+ shift 
+done 
+
+#exercice3
+
+#Écrire un programme shell qui affiche ligne par ligne 
+#le contenu d'un fichier dont le nom est fourni en paramètre. 
+
+#solution
+
+#!/bin/sh 
+exec < $1 # redirection de l'entrée standard 
+while read ligne ; do 
+echo ">$ligne" 
+done 
+
+#exercice4
+
+#Écrire un programme shell qui affiche tous les sous-répertoires 
+#du répertoire courant, en utilisant une boucle. 
+
+#solution
+
+#!/bin/sh 
+for rep in *; do # pour chaque fichier "rep" du repertoire courant  
+if [ -d "$rep" ]; then # si rep est un repertoire 
+ echo $rep # affiche rep 
+ fi 
+done 
+
+#exercice5
+#le programme: 
+
+#Que fait le programme shell suivant (remplacez les '...' par le texte adéquat) ? 
+
+#!/bin/sh 
+w=`who | grep $1` 
+if [ -z "$w" ]; then echo "$1 n'est pas ..."; fi 
+
+#Solution :
+
+#Ce programme détermine si l'utilisateur dont le nom est donné comme argument est connecté. 
+ 
+#!/bin/sh 
+w=`who | grep $1` 
+if [ -z "$w" ]; then echo "$1 n'est pas connecté"; fi
+
+#Exercice 6
+
+# Écrire un programme shell qui accepte 2 paramètres. Le premier paramètre est +r, -r, +w ou -w, et le deuxième paramètre spécifie une extension de nom de fichiers. En fonction de la valeur du premier paramètre, le programme modifiera les droits du groupe de tous les fichiers du répertoire courant dont l'extension est égale au deuxième paramètre. Pour contrôle, avant chaque modification des droits sur un fichier, le programme affichera le nom du fichier.
+
+#!/bin/sh 
+if [ $# -eq 2 ]; then # si le nombre d'arguments est égal à 2 :  rep="." # variable rep vaut le repertoire courant = "."  droit=$1 # variable droit vaut le premier argument $1  ext=$2 # variable ext vaut le deuxieme argument $2 elif [ $# -eq 3 ]; then # si le nombre d'arguments est égal à 3 :  rep=$1 # variable rep vaut le premier argument $1  droit=$2 # variable droit vaut le deuxieme argument $2  ext=$3 # variable ext vaut le troisieme argument $3 else 
+ echo "erreur : donnez 2 ou 3 arguments" 1>&2 
+ exit 1 
+fi 
+for fich in "${rep}"/*"${ext}"; do # pour chaque fichier "fich" dans rep/*ext:  chmod g$droit "$fich" # changer le droit du groupe "g" sur "fich"  echo $fich 
+done 
+
+#Exercice 7
+
+# Écrire un programme shell qui efface un fichier après avoir demandé confirmation à l'utilisateur. Le programme doit recevoir en paramètre le ou les noms du/des fichier(s) à effacer. Pour chaque fichier, il demande alors à l'utilisateur : « Voulez-vous réellement effacer le fichier xxx ? ». Si la réponse est oui, le programme affiche « suppression confirmée », et efface le fichier. Si la réponse est non le programme affiche « suppression abandonnée ». Dans les autres cas, le programme affiche « réponse invalide » et repose la question à l'utilisateur. 
+
+#!/bin/sh 
+while [ $# -ne 0 ]; do 
+ fich=$1; shift 
+## ou : for fich in $*; do 
+ repeat=1 
+ while [ $repeat -eq 1 ]; do 
+ echo "Voulez-vous reellement effacer le fichier \"$fich\" ?"  read reponse 
+  
+ case "$reponse" in 
+ [Oo][Uu][Ii]) 
+ rm "$fich" 
+ echo "suppression confirmée" 
+repeat=0 
+ ;; 
+ [Nn][Oo][Nn]) 
+ echo "suppression abondonnée"  repeat=0 
+ ;; 
+ *) 
+ echo "reponse invalide" 
+ ;; 
+ esac 
+ done 
+done 
+
+#Exercice 8
+
+# On voudrait écrire un script permettant de facilement changer de façon systématique l'extension d'une série de fichiers. On souhaite par exemple renommer tous les fichiers .htm du répertoire courant en .html
+
+#!/bin/sh 
+if [ $# -ne 2 ]; then 
+ echo "erreur : donnez 2 arguments." 1>&2 
+ exit 1  
+fi 
+vieux=$1 
+nouveau=$2 
+for fich in *"${vieux}"; do 
+ base=`basename "$fich" "$vieux"` 
+ mv "$fich" "$base$nouveau" 
+ if [ $? -ne 0 ]; then 
+ echo "je ne peux pas renommer \"$fich\" en \"$base$nouveau\"" 1>&2  fi 
+done 
+
+#Exercice 9
+
+#Écrire un programme shell qui commence par afficher « Entrer le nom d'un répertoire : » puis lit le nom (relatif ou absolu) d'un répertoire (commande read). Le programme affichera ensuite le texte « Le répertoire xxx contient les fichiers suivants : » suivi de la liste des fichiers contenus dans le répertoire.
+#Ecrire une première version dans laquelle xxx est le nom du répertoire reçu en argument.
+
+#!/bin/sh 
+echo "Entrer le nom d'un répertoire : " 
+read dir 
+
+# Ecrire une seconde version dans laquelle xxx correspond au chemin absolu du répertoire entré par l'utilisateur, même si celui-ci est donné en relatif. On suppose toutefois que le répertoire donné en paramètre se trouve dans le répertoire courant (inutile d'effectuer une recherche dans toute l'arborescence).
+
+#!/bin/sh 
+echo "Entrer le nom d'un répertoire : " 
+read dir 
+if [ $# -ne 0 ]; then 
+ echo "Erreur : Le script doit être appelé avec 1 argument" 1>&2  exit 1 
+fi 
+if [ ! -d "$dir" ]; then 
+ echo "Erreur : \"$dir\" n'est pas un répertoire" 1>&2 
+ exit 1 
+fi 
+if [ ! -r "$dir" ]; then 
+ echo "Erreur : je ne peux pas lire le répertoire \"$dir\"" 1>&2  exit 1 
+fi 
+# On essaye d'aller dans le répertoire $dir pour utiliser 
+# pwd pour déterminer son nom absolu 
+cd "$dir" 2> /dev/null 
+if [ $? -ne 0 ]; then 
+ # on garde alors le nom donné 
+ cmd="ls \"$dir\"" 
+else 
+ dir=`pwd` 
+ cmd="ls" 
+fi 
+echo "Le répertoire \"$dir\" contient les fichiers suivants :" exec $cmd
+
+#Exercice 10
+
+#Chercher toutes les lignes commençant par 'a' ou 'A'.
+grep '^[aA]' fichier 
+# Chercher toutes les lignes finissant par 'rs'. 
+grep 'rs$' fichier
+#Chercher toutes les lignes contenant au moins un chiffre.
+grep '[0-9]' fichier
+#Chercher toutes les lignes commençant par une majuscule.
+grep '^[A-Z]' fichier
+#Chercher toutes les lignes commençant par 'B', 'E' ou 'Q'.
+grep '^[BEQ]' fichier
+#Chercher toutes les lignes finissant par un point d'exclamation. 
+grep '!$' fichier
+#Cherchez toutes les lignes se terminant par un point.
+grep '\.$' fichier
+#Chercher toutes les lignes ne finissant pas par un signe de ponctuation (point, virgule, point-virgule, deux-points, point d'interrogation, point d'exclamation).
+grep -v '[.,;:?!]$' fichier
+#Comment chercher tous les mots contenant un 'r' précédé de n'importe quelle lettre majuscule ou minuscule ?
+grep '[a-zA-Z]r' fichier'
+#Chercher tous les mots dont la seconde lettre est un 'r'.
+grep '\<.r' fichier
