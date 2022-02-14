@@ -23,6 +23,7 @@ _(Voici nos scripts de notre formation en BI/BIG Data)_
 # Ateliers
 
 - Linux 
+
 (TD1/Copie_Guillaume_Yoann_TD1) --> Linux.sh
 
 - Codes persos (3)
@@ -35,7 +36,7 @@ prog Doryan Adrien - opération mathématique simple.sh
 
 - TD2 (atelier 6) Shell
 
-- atelier6.sh
+atelier6.sh
 
 # Vidéos 
 
