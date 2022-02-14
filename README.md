@@ -22,6 +22,7 @@ _(Nos scripts de notre formation en BI/BIG Data)_
 # Ateliers
 
 - Linux 
+
 (TD1/Copie_Guillaume_Yoann_TD1) --> Linux.sh
 
 - Codes persos 
@@ -29,7 +30,7 @@ _(Nos scripts de notre formation en BI/BIG Data)_
 
 - TD2 (atelier 6) Shell
 
-- atelier6.sh
+atelier6.txt
 
 # Vidéos 
 
