@@ -40,7 +40,9 @@ _(Voici nos scripts de notre formation en BI/BIG Data)_
 | Algomius Variables Linux | 2 | 3 | 4 |
 |  | 2 | 3 | 4 |
 | Algomius Conditions Linux | 2 | 3 | 4 |
-|  | 2 | 3 | 4 |
+|  | if,elif,else |5:29 | Script de Test pour evaluer des conditions |
+|  | Case | 15:16 | Script de Test pour verifier la variante de structure|
+|  | rep | 24:39 | Script de Test pour verifier l'existence d'un fichier/repertoire |
 | Algomius Boucles Linux | 2 | 3 | 4 |
 |  | 2 | 3 | 4 |
 | Algomius Fonctions Linux | 2 | 3 | 4 |
