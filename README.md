@@ -12,4 +12,13 @@ vous pouvez nous retrouver sur le site :
 
 # Ateliers
 
+-Linux 
+(TD1/Copie_Guillaume_Yoann_TD1) --> Linux.sh
+
+-Codes persos 
+(pas encore push)
+
+-TD2 (atelier 6) Shell
+atelier6.sh
+
 # Vidéos 
