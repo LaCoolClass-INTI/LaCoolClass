@@ -34,3 +34,11 @@ _(Nos scripts de notre formation en BI/BIG Data)_
 
 # Vidéos 
 
+
+
+
+## License
+
+MIT
+
+**Free Software, Hell Yeah!**
