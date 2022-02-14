@@ -1,0 +1,11 @@
+Algomius_Function_if,elif,else.sh
+           5:29
+		  Script de Test pour evaluer des conditions
+
+ Algomius_Function_case.sh: 
+           15 min 16
+ Script de Test pour verifier la variante de structure
+ 
+Algomius_Function_Testfunction.sh
+        24.39
+		Script de Test pour verifier l'existence d'un fichier/repertoire
