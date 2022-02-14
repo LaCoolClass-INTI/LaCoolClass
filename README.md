@@ -23,34 +23,28 @@ _(Voici nos scripts de notre formation en BI/BIG Data)_
 # Ateliers
 
 - Linux 
-
 (TD1/Copie_Guillaume_Yoann_TD1) --> Linux.sh
 
-- Codes persos (3)
-
-Prog Adrien - afficher la ligne d'un fichier.sh
-
-Prog Doryan - afficher un fichier ligne par ligne.sh
-
-prog Doryan Adrien - opération mathématique simple.sh
+- Codes persos 
+(pas encore push)
 
 - TD2 (atelier 6) Shell
 
-atelier6.sh
+- atelier6.sh
 
 # Vidéos 
 
-| Algomius Introduction Linux | NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE |
+| Vidéo Algomius| NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE |
 | ------ | ------ | ------ | ------ |
-| 1 | 2 | 3 | 4 |
-| 1 | 2 | 3 | 4 |
-| 1 | 2 | 3 | 4 |
-| 1 | 2 | 3 | 4 |
-| 1 | 2 | 3 | 4 |
-| 1 | 2 | 3 | 4 |
-| 1 | 2 | 3 | 4 |
-| 1 | 2 | 3 | 4 |
-| 1 | 2 | 3 | 4 |
+| Algomius Introduction Linux | 2 | 3 | 4 |
+| Algomius Variables Linux | 2 | 3 | 4 |
+|  | 2 | 3 | 4 |
+| Algomius Conditions Linux | 2 | 3 | 4 |
+|  | 2 | 3 | 4 |
+| Algomius Boucles Linux | 2 | 3 | 4 |
+|  | 2 | 3 | 4 |
+| Algomius Fonctions Linux | 2 | 3 | 4 |
+|  | 2 | 3 | 4 |
 
 
 ## License
