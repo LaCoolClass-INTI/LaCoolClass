@@ -1,4 +1,0 @@
-Bonjour à tous ! 
-Je crée ce script pour faire des merges
-En espérant que ça ne buggue pas 
-Salute 
