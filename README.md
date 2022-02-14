@@ -60,8 +60,8 @@ atelier6.sh
 |  | Algomius_Boucles_TableMulitplication | 24:00 | Affiche les tables de multiplication |
 | Algomius Fonctions Linux | 2 | 3 | 4 |
 |  | Algomius_Fonction_testfonction.sh | 5:00 | Permet de tester les fonctions, en transformant le "a" qui a une valeur de 5 en valeur de 3.|
-|  | Algomius_Fonction_testfonction.sh | 11:10 | Fonction qui donne son nom, puis dit bonjour en fonction du paramètre donné. Plusieur réponse possible. |
-|  | Algomius_Fonction_testfonction.sh | 19:50 | Fonction qui vient prendre un autre script, ici retour, et donne le résultat.  |
+|  | Algomius_Fonction_Bonjour.sh | 11:10 | Fonction qui donne son nom, puis dit bonjour en fonction du paramètre donné. Plusieur réponse possible. |
+|  | Algomius_Fonction_return.sh | 19:50 | Fonction qui vient prendre un autre script, ici retour, et donne le résultat.  |
 
 
 ## License
