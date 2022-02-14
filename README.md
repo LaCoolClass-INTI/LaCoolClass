@@ -39,10 +39,9 @@ _(Voici nos scripts de notre formation en BI/BIG Data)_
 | Algomius Introduction Linux | Algomius_Intro_Hello | 19:29 | Petit message pour dire bonjour ! |
 | Algomius Variables Linux | 2 | 3 | 4 |
 |  | 2 | 3 | 4 |
-| Algomius Conditions Linux | 2 | 3 | 4 |
-|  | if,elif,else |5:29 | Script de Test pour evaluer des conditions |
-|  | Case | 15:16 | Script de Test pour verifier la variante de structure|
-|  | rep | 24:39 | Script de Test pour verifier l'existence d'un fichier/repertoire |
+| Algomius Conditions Linux |  | Algomius_Conditions_if,elif,else |5:29 | Script de Test pour evaluer des conditions |
+|  | Algomius_Conditions_case | 15:16 |  Script de Test pour évaluer expression, la compare à une séquence de valeurs ( value1 , value2 , etc.) et renvoie un résultat|
+|  | Algomius_Conditions_rep | 24:39 | Script de Test pour verifier l'existence d'un fichier/repertoire |
 | Algomius Boucles Linux | Algomius_Boucles_WhileCafe | 4:30 | Forcer l'utilisateur à entrer une valeur particulière avec un while |
 |  | Algomius_Boucles_UntilCafe | 9:20 | Forcer l'utilisateur à entrer une valeur particulière avec un until |
 |  | Algomius_Boucles_ForNb10 | 12:15 | Affiche "un" "deux" "troix" jusqu'à "dix" grâce à un for |
