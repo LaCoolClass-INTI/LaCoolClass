@@ -1,0 +1,11 @@
+Mécanismes de fonction :
+	5:00
+	Fonction1.sh
+
+Fonction de paramètres : 
+	11:10
+	Fonction2.sh
+
+Code retour d'un script (exit) : 
+	19:50
+	Fonction3.sh et retour.sh
