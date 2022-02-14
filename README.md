@@ -4,11 +4,12 @@
 
 
 
-bonjour et bienvenue...
+Bonjour et Bienvenue dans La Cool Class! Nous sommes 12 étudiants en BI/BIG de l'INTI. 
+Afin de mieux nous faire connaître nous avons créer un petit site internet (lien au dessus) qui résume notre formation.
+Dans ce README vous trouverez une petite synthèse de tous nos projets!
+Bonne lecture! :)
 
-
-
-_(Nos scripts de notre formation en BI/BIG Data)_
+_(Voici nos scripts de notre formation en BI/BIG Data)_
 
 # logiciels utilisés
 
@@ -22,7 +23,6 @@ _(Nos scripts de notre formation en BI/BIG Data)_
 # Ateliers
 
 - Linux 
-
 (TD1/Copie_Guillaume_Yoann_TD1) --> Linux.sh
 
 - Codes persos 
@@ -30,7 +30,7 @@ _(Nos scripts de notre formation en BI/BIG Data)_
 
 - TD2 (atelier 6) Shell
 
-atelier6.txt
+- atelier6.sh
 
 # Vidéos 
 
