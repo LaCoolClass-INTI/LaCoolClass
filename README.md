@@ -3,26 +3,27 @@
 [![N|Solid](https://github.com/LaCoolClass-INTI/Scripts-formation/blob/cbc48707beea62aff3722cd341fa546d30a04100/Images-readme/LOGO%20CLCL.png)](https://sites.google.com/view/lacoolclass/accueil)
 
 
-_(Nos scripts de notre formation en BI/BIG Data)_
+
 
 bonjour et bienvenue...
 
 
 
-voici les scripts étudiés lors de notre formation, 
+_(Nos scripts de notre formation en BI/BIG Data)_
 
-vous pouvez nous retrouver sur le site :
+
 
 # Ateliers
 
--Linux 
+- Linux 
 (TD1/Copie_Guillaume_Yoann_TD1) --> Linux.sh
 
--Codes persos 
+- Codes persos 
 (pas encore push)
 
--TD2 (atelier 6) Shell
+- TD2 (atelier 6) Shell
 
-atelier6.sh
+- atelier6.sh
 
 # Vidéos 
+
