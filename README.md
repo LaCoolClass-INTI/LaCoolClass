@@ -37,8 +37,12 @@ _(Voici nos scripts de notre formation en BI/BIG Data)_
 | Vidéo Algomius| NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE |
 | ------ | ------ | ------ | ------ |
 | Algomius Introduction Linux | 2 | 3 | 4 |
-| Algomius Variables Linux | 2 | 3 | 4 |
-|  | 2 | 3 | 4 |
+| Algomius Variables Linux | Bonjour | 10'30 | Dis bonjour à l'user |
+|  | Date | 12' | Donne la date du jour |
+|  | Chaine | 13'20 | Créé une chaine |
+|  | Somme | 13'50 | Somme de chiffres |
+|  | Read | 19'15 | Obtenir une donnée utilisateur |
+|  | Let | 24'20 | Obtenir une donnée utilisateur (2ème manière) | 
 | Algomius Conditions Linux | 2 | 3 | 4 |
 |  | 2 | 3 | 4 |
 | Algomius Boucles Linux | 2 | 3 | 4 |
