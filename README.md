@@ -36,7 +36,7 @@ _(Voici nos scripts de notre formation en BI/BIG Data)_
 
 | Vidéo Algomius| NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE |
 | ------ | ------ | ------ | ------ |
-| Algomius Introduction Linux | 2 | 3 | 4 |
+| Algomius Introduction Linux | Algomius_Intro_Hello | 19:29 | Petit message pour dire bonjour ! |
 | Algomius Variables Linux | Bonjour | 10'30 | Dis bonjour à l'user |
 |  | Date | 12' | Donne la date du jour |
 |  | Chaine | 13'20 | Créé une chaine |
@@ -44,9 +44,14 @@ _(Voici nos scripts de notre formation en BI/BIG Data)_
 |  | Read | 19'15 | Obtenir une donnée utilisateur |
 |  | Let | 24'20 | Obtenir une donnée utilisateur (2ème manière) | 
 | Algomius Conditions Linux | 2 | 3 | 4 |
-|  | 2 | 3 | 4 |
-| Algomius Boucles Linux | 2 | 3 | 4 |
-|  | 2 | 3 | 4 |
+|  | if,elif,else |5:29 | Script de Test pour evaluer des conditions |
+|  | Case | 15:16 | Script de Test pour verifier la variante de structure|
+|  | rep | 24:39 | Script de Test pour verifier l'existence d'un fichier/repertoire |
+| Algomius Boucles Linux | Algomius_Boucles_WhileCafe | 4:30 | Forcer l'utilisateur à entrer une valeur particulière avec un while |
+|  | Algomius_Boucles_UntilCafe | 9:20 | Forcer l'utilisateur à entrer une valeur particulière avec un until |
+|  | Algomius_Boucles_ForNb10 | 12:15 | Affiche "un" "deux" "troix" jusqu'à "dix" grâce à un for |
+|  | Algomius_Boucles_ForLSFichier | 16:45 | Affiche seulement les fichiers du répertoire courant |
+|  | Algomius_Boucles_TableMulitplication | 24:00 | Affiche les tables de multiplication |
 | Algomius Fonctions Linux | 2 | 3 | 4 |
 |  | 2 | 3 | 4 |
 
