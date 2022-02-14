@@ -5,7 +5,7 @@
 
 
 Bonjour et Bienvenue dans La Cool Class! Nous sommes 12 étudiants en BI/BIG de l'INTI. 
-Afin de mieux nous faire connaître nous avons créer un petit site internet (lien au dessus) qui résume notre formation.
+Afin de mieux nous faire connaître nous avons créé un petit site internet (lien au-dessus) qui résume notre formation.
 Dans ce README vous trouverez une petite synthèse de tous nos projets!
 Bonne lecture! :)
 
