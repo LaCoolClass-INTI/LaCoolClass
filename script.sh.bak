@@ -1,0 +1,3 @@
+#!/bin/sh
+# Manipulation de variables locales et globales
+echo "Mon répertoire de connexion est : $HOME"
