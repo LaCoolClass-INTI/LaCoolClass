@@ -25,8 +25,13 @@ _(Voici nos scripts de notre formation en BI/BIG Data)_
 - Linux 
 (TD1/Copie_Guillaume_Yoann_TD1) --> Linux.sh
 
-- Codes persos 
-(pas encore push)
+- Codes persos (3)
+
+Prog Adrien - afficher la ligne d'un fichier.sh
+
+Prog Doryan - afficher un fichier ligne par ligne.sh
+
+prog Doryan Adrien - opération mathématique simple.sh
 
 - TD2 (atelier 6) Shell
 
