@@ -34,15 +34,16 @@ _(Voici nos scripts de notre formation en BI/BIG Data)_
 
 # Vidéos 
 
-| Algomius Introduction Linux | NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE
-| Algomius Variables Linux | NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE
-|  | NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE
-| Algomius Conditions Linux | NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE
-|  | NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE
-| Algomius Boucles Linux | NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE
-|  | NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE
-| Algomius Fonctions Linux | NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE
-|  | NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE
+| Algomius Introduction Linux | NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE |
+| 1 | 2 | 3 | 4 |
+| 1 | 2 | 3 | 4 |
+| 1 | 2 | 3 | 4 |
+| 1 | 2 | 3 | 4 |
+| 1 | 2 | 3 | 4 |
+| 1 | 2 | 3 | 4 |
+| 1 | 2 | 3 | 4 |
+| 1 | 2 | 3 | 4 |
+| 1 | 2 | 3 | 4 |
 
 
 ## License
