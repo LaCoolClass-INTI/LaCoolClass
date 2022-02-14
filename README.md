@@ -19,6 +19,6 @@ vous pouvez nous retrouver sur le site :
 (pas encore push)
 
 -TD2 (atelier 6) Shell
-atelier6.sh
+/n atelier6.sh
 
 # Vidéos 
