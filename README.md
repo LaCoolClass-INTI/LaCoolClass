@@ -20,7 +20,7 @@ _(Voici nos scripts de notre formation en BI/BIG Data)_
 | Git | [https://git-scm.com/] | 
 
 
-# Ateliers
+# Ateliers sur bash
 
 - Linux 
 
@@ -38,7 +38,7 @@ Prog Doryan - afficher un fichier ligne par ligne.sh
 
 atelier6.sh
 
-# Vidéos 
+# Vidéos sur Bash
 
 | Vidéo Algomius| NOM SCRIPT | TIMER DANS LA VIDEO | BREVE EXPLICATION DU CODE |
 | ------ | ------ | ------ | ------ |
@@ -60,6 +60,10 @@ atelier6.sh
 | Algomius Fonctions Linux | Algomius_Fonction_testfonction.sh | 5:00 | Permet de tester les fonctions, en transformant le "a" qui a une valeur de 5 en valeur de 3.|
 |  | Algomius_Fonction_Bonjour.sh | 11:10 | Fonction qui donne son nom, puis dit bonjour en fonction du paramètre donné. Plusieur réponse possible. |
 |  | Algomius_Fonction_return.sh | 19:50 | Fonction qui vient prendre un autre script, ici retour, et donne le résultat.  |
+
+# Scripts sur SQL
+
+
 
 
 ## License
